@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    background-color: #05c069;
+}
+
+.container {
+    padding: 25px;
+    width: 350px;
+    background: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 425px;
+    transition: all.2s;
+    overflow: hidden;
+}
+
+.container .app-tittle{
+    text-align: center;
+    font-size: 22px;
+    color: #05c069;
+}
+
+.container .box{
+    height: 120px;
+    width: 300px;
+    background: white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.container .box input{
+    all: unset;
+    height: 400px;
+    width: 200px;
+    border-bottom: 1px solid grey;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+.container .calculator-btn{
+    all: unset;
+    height: 45px;
+    width: 100%;
+    color: white;
+    background: #05c069;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+
+
+}
+.container .result-box{
+    display: none;
+    overflow: hidden;
+}
+
+.container .result-box .yr-bmi-txt{
+    text-align: center;
+    margin-top: 17px;
+    font-weight: 500;
+}
+
+.container .result-box .bmi {
+    margin-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #05c069;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    margin: auto;
+    width: 120px;
+    margin-top: 5px;
+    font-size: 23px;
+
+}
+
+.container .result-box .result {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.container .result-box .result{
+    font-weight: 600;
+
+}
